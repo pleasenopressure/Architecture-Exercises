@@ -1,0 +1,14 @@
+[project]
+name = "week3-diagnostic-task"
+version = "0.1.0"
+description = "Week 3 diagnostic task for SotonLM Architecture course"
+requires-python = ">=3.8"
+dependencies = [
+    "transformers>=4.30.0",
+    "torch>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
